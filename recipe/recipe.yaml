@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "0.17.1"
+  version: "0.17.2"
 
 package:
   name: gedih3
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gedih3/gedih3-${{ version }}.tar.gz
-  sha256: cacdad7297a9e096ad623c246044241f3105a214576fd01909a25395120fa143
+  sha256: 06501d54239531f8671c59df7ac0bcf7a325fe120a156ff5eef9746e505b37ca
 
 build:
   number: 0
