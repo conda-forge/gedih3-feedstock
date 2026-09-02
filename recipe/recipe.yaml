@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "0.17.2"
+  version: "0.17.3"
 
 package:
   name: gedih3
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gedih3/gedih3-${{ version }}.tar.gz
-  sha256: 06501d54239531f8671c59df7ac0bcf7a325fe120a156ff5eef9746e505b37ca
+  sha256: 626b7a521404a9c9907926aa01bd0feb0821946f931336c852af8b1ac56a6aa2
 
 build:
   number: 0
@@ -71,7 +71,7 @@ requirements:
     - tqdm >=4.60.0
     - pyyaml >=6.0.1
     - scipy >=1.11.2
-    - python-duckdb >=1.4.4,<1.5
+    - python-duckdb >=1.4.0,<1.5
     - gdal >=3.4.0
 
 tests:
