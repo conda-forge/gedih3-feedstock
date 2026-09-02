@@ -71,7 +71,7 @@ requirements:
     - tqdm >=4.60.0
     - pyyaml >=6.0.1
     - scipy >=1.11.2
-    - python-duckdb >=1.4.4,<1.5
+    - python-duckdb >=1.4.0,<1.5
     - gdal >=3.4.0
 
 tests:
